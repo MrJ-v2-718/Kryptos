@@ -1,0 +1,1860 @@
+Kryptos
+-------
+K4 Ciphertext Master Copy
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Left Side:
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+Right Side:
+ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+
+
+Solutions:
+----------
+The translations of the International Morse code (sometimes called K0) that are ascribed to the copper slabs when read facing the south:
+
+E E VIRTUALLY E | E E E E E E INVISIBLE
+DIGETAL E E E | INTERPRETATIT
+E E SHADOW E E | FORCES E E E E E
+LUCID E E E | MEMORY E
+T IS YOUR | POSITION E
+SOS
+RQ
+
+
+Solution of passage 1
+---------------------
+▪ Method: Vigenère
+▪ Keywords: "Kryptos" and "palimpsest"
+BETWEEN SUBTLE SHADING AND THE ABSENCE OF LIGHT LIES THE NUANCE OF IQLUSION
+Iqlusion was an intentional misspelling of illusion by the creator, Jim Sanborn, that was intended to throw people oﬀ.
+
+
+In textual studies, a palimpsest (/ˈpælɪmpsɛst/) is a 
+manuscript page, either from a scroll or a book, from 
+which the text has been scraped or washed off in 
+preparation for reuse[1] in the form of another document.
+[2] Parchment was made of lamb, calf, or kid skin and was 
+expensive and not readily available, so, in the interest 
+of economy, a page was often re-used by scraping off the 
+previous writing. In colloquial usage, the term palimpsest 
+is also used in architecture, archaeology and geomorphology 
+to denote an object made or worked upon for one purpose and 
+later reused for another; for example, a monumental brass the 
+reverse blank side of which has been re-engraved.
+
+
+To solve: Find character on right in the first column of the
+Kryptos Vigenere Table. Then travel horizontally to find the
+matching ciphertext character. Travel to the table header 
+(first row). This is the plaintext character. Ta da.
+Also, note to self scan that table I made lines on.
+It helps tremendously. 
+
+Note: It seems that as soon as the correct key length is 
+determined, then the key repeats for each row. This means
+if I find the length, then I find the key. At least a partial
+key. How will I recognize a partial word? Easy, I'll use
+the internet.
+
+Analyze each partial key for possible encryption as well.
+K4 might have been encrypted multiple times.
+In fact, it's likely.
+
+
+PALIMPSEST // KEY: BETWEENSUB
+PALIMPSEST // KEY: TLESHADING
+PALIMPSEST // KEY: ANDTHEABSE
+PALIMPSEST // KEY: NCEOFLIGHT
+PALIMPSEST // KEY: LIESTHENUA
+PALIMPSEST // KEY: NCEOFIQLUS
+PAL******* // KEY: ION
+
+EMUFPHZLRF // DECRYPTED: BETWEENSUB
+AXYUSDJKZL // DECRYPTED: TLESHADING
+DKRNSHGNFI // DECRYPTED: ANDTHEABSE
+VJYQTQUXQB // DECRYPTED: NCEOFLIGHT
+QVYUVLLTRE // DECRYPTED: LIESTHENUA
+VJYQTMKYRD // DECRYPTED: NCEOFIQLUS
+MFD        // DECRYPTED: ION
+
+K1 Ciphertext:
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+
+Ouput of kryptos_sandbox.py:
+
+Looks like Vigenere encryption isn't the inverse of its decryption
+Time to analyze the encryption process.
+
+OTGBNBGUITRDQLVTTTGCTFNIVBRWKAJYQJQHCYBKHBQLFEOBIPJYQJQFHSIYFXY
+
+
+Here is the following output:
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Decrypt Text Using Vigenere Table and Key
+3. Exit Program
+Select A Menu Option:2
+Enter Text To Decrypt: EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJYQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+Enter Key: PALIMPSEST
+Decrypted Text: WSKERZHNJTSYRNUVYWHYVAQLUZVPUWHQRMSFDUCPFWRNKCZAJSHQRMSDIYJRDMZ
+
+The decrypted text should read:
+Betweensubtleshadingandtheabsenceoflightliesthenuanceofiqlusion
+BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION
+BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION
+
+kryptos_sandbox.py output:
+
+************Ciphertext************
+[['P', 'A', 'L', 'I', 'M', 'P', 'S', 'E', 'S', 'T'], ['E', 'M', 'U', 'F', 'P', 'H', 'Z', 'L', 'R', 'F'], ['A', 'X', 'Y', 'U', 'S', 'D', 'J', 'K', 'Z', 'L'], ['D', 'K', 'R', 'N', 'S', 'H', 'G', 'N', 'F', 'I'], ['V', 'J', 'Y', 'Q', 'T', 'Q', 'U', 'X', 'Q', 'B'], ['Q', 'V', 'Y', 'U', 'V', 'L', 'L', 'T', 'R', 'E'], ['V', 'J', 'Y', 'Q', 'T', 'M', 'K', 'Y', 'R', 'D'], ['M', 'F', 'D']]
+**********************************
+Decrypted Text:
+Betweensubtleshadingandtheabsenceoflightliesthenuanceofiqlusion
+BETWEENSUBTLESHADINGANDTHEABSENCEOFLIGHTLIESTHENUANCEOFIQLUSION
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Decrypt Text Using Vigenere Table and Key
+3. Exit Program
+Select A Menu Option:3
+
+
+
+
+
+
+KEY=PALIMPSEST
+ALPHABET=KRYPTOS
+P	A	L	I	M	P	S	E	S	T	 
+E	M	U	F	P	H	Z	L	R	F	= 	B	E	T	W	E	E	N	S	U	B
+A	X	Y	U	S	D	J	K	Z	L	= 	T	L	E	S	H	A	D	I	N	G
+D	K	R	N	S	H	G	N	F	I	= 	A	N	D	T	H	E	A	B	S	E
+V	J	Y	Q	T	Q	U	X	Q	B	= 	N	C	E	O	F	L	I	G	H	T
+Q	V	Y	U	V	L	L	T	R	E	= 	L	I	E	S	T	H	E	N	U	A
+V	J	Y	Q	T	M	K	Y	R	D	= 	N	C	E	O	F	I	Q	L	U	S
+M	F	D	 	=	I	O	N	
+
+Decyrption: Between subtle shading and the absence of light lies the nuance of iqlusion.
+
+Instructions: Using the key: PALIMPSEST, align encoded text of K1 to look like the left half of the table above.
+
+Using the Kryptos' Vigen�re table (left): Reading down the first column, (under the letter P) you have E, A, D, V, Q, V, M. , decrypt using line P. 
+
+NOTE:: The blue letters should be ignored, they serve as the indexing. Find each letter on row P moving up to the top row to find the answer.
+
+Example: Row P find E now go up that column to the top to find it decrypts to a B. 
+
+
+Solution of passage 2
+---------------------
+▪ Method: Vigenère
+▪ Keywords: "Kryptos" and "abscissa"
+IT WAS TOTALLY INVISIBLE HOWS THAT POSSIBLE ? THEY USED THE EARTHS
+MAGNETIC FIELD X THE INFORMATION WAS GATHERED AND TRANSMITTED
+UNDERGRUUND TO AN UNKNOWN LOCATION X DOES LANGLEY KNOW ABOUT THIS ?
+THEY SHOULD ITS BURIED OUT THERE SOMEWHERE X WHO KNOWS THE EXACT
+LOCATION ? ONLY WW THIS WAS HIS LAST MESSAGE X THIRTY EIGHT DEGREES FIFTY
+SEVEN MINUTES SIX POINT FIVE SECONDS NORTH SEVENTY SEVEN DEGREES EIGHT
+MINUTES FORTY FOUR SECONDS WEST X LAYER TWO
+
+ITWASTOTALLYINVISIBLEHOWSTHATPOSSIBLETHEYUSEDTHEEARTHSMAGNETICFIELDXTHEINFORMATIONWASGATHEREDANDTRANSMITTEDUNDERGRUUNDTOANUNKNOWNLOCATIONXDOESLANGLEYKNOWABOUTTHISTHEYSHOULDITSBURIEDOUTTHERESOMEWHEREXWHOKNOWSTHEEXACTLOCATIONONLYWWTHISWASHISLASTMESSAGEXTHIRTYEIGHTDEGREESFIFTYSEVENMINUTESSIXPOINTFIVESECONDSNORTHSEVENTYSEVENDEGREESEIGHTMINUTESFORTYFOURSECONDSWEST
+
+
+
+The coordinates mentioned in the plaintext, 38°57′6.5″N 77°8′44″W, have been interpreted
+using a modern Geodetic datum as indicating a point that is approximately 174 feet (53
+meters) southeast of the sculpture.
+
+
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKKDQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVHDWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZFKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGE
+
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKKDQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVHDWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZFKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGE
+
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKKDQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVHDWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZFKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGE
+
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKKDQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVHDWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZFKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGE
+
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCEGGWHKKDQMCPFQZDQMMIAGPFXHQRLGTIMVMZJANQLVKQEDAGDVFRPJUNGEUNAQZGZLECGYUXUEENJTBJLBQCRTBJDFHRRYIZETKZEMVDUFKSJHKFWHKUWQLSZFTIHHDDDUVHDWKBFUFPWNTDFIYCUQZEREEVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDXFLGGTEZFKZBSFDQVGOGIPUFXHHDRKFFHQNTGPUAECNUVPDJMQCLQUMUNEDFQELZZVRRGKFFVOEEXBDMVPNFQXEZLGREDNQFMPNZGLFLPMRJQYALMGNUVPDXVKPDQUMEBEDMHDAFMJGZNUPLGE
+
+
+
+
+In common usage, the abscissa refers to the x coordinate and the ordinate refers to the y coordinate of a standard two-dimensional graph.[1][2]
+
+The distance of a point from the y axis, scaled with the x axis, is called the abscissa or x coordinate of the point. The distance of a point from the x axis scaled with the y axis is called the ordinate or y coordinate of the point.
+
+For example, if (x, y) is an ordered pair in the Cartesian plane, then the first coordinate in the plane (x) is called the abscissa, and the second coordinate (y) is the ordinate. 
+
+
+Solution of passage 3
+---------------------
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?
+
+▪ Method: Transposition
+SLOWLY DESPARATLY SLOWLY THE REMAINS OF PASSAGE DEBRIS THAT ENCUMBERED
+THE LOWER PART OF THE DOORWAY WAS REMOVED WITH TREMBLING HANDS I MADE
+A TINY BREACH IN THE UPPER LEFT HAND CORNER AND THEN WIDENING THE HOLE A
+LITTLE I INSERTED THE CANDLE AND PEERED IN THE HOT AIR ESCAPING FROM THE
+CHAMBER CAUSED THE FLAME TO FLICKER BUT PRESENTLY DETAILS OF THE ROOM
+WITHIN EMERGED FROM THE MIST X CAN YOU SEE ANYTHING Q ?
+This is a paraphrased quotation from Howard Carter's account of the opening of the tomb of
+Tutankhamun on November 26, 1922, as described in his 1923 book The Tomb of
+Tutankhamun.[25] The question with which it ends is asked by Lord Carnarvon, to which Carter
+in the book replied, "wonderful things". Field notes from the expedition, however, show his
+reply as, "Yes, it is wonderful".
+
+
+Solution of passage 4 (Currently Unsolved)
+------------------------------------------
+K4:
+                     EASTNORTHEAST                             BERLINCLOCK
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+Based on estimated key length of five,
+what key translates:
+    wflrv
+to:
+    *east
+    
+is:    
+    *rdum
+
+
+After analyzing the following kryptos.py output, I suspect the
+keyword begins with "zwi" since the characters "SEE" appear on
+the first part of the translation. Since key length isn't known
+the only reliable plaintext occurs at the very beginning, before
+the ciphertext wraps around to the beginning of the key again.
+
+**********************Key***********************
+zwieback
+************************************************
+
+*****************Decrypted Text*****************
+SEEJGXIOHLSSKZVLJINWIOBRWWOMNFTKACJNIWESLWLUPNJZXDIOMDFDJDBTEOZNPSANVEJFTPBYYNJXONQZASLUIXMDPNKAY
+************************************************
+
+
+**********************Key***********************
+zwiebacks
+************************************************
+
+*****************Decrypted Text*****************
+SEEJGXIOAIXYWXXBISCEBRCQGQHTTTYMZWOXXAOUBGWSORYDFZWAKEVGKVIBDFYQOHEVWCZSTPBYYNJXXLFUTONFHIBXVIRKM
+************************************************
+
+Further investigation of German words:
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwicken
+
+**********************Key***********************
+zwicken
+************************************************
+
+*****************Decrypted Text*****************
+SEEMUQOSJZFLWGSQKPBWTGQFGQCDYVXLSUFOKIESORACVLZHTBARLLDLJDBSNRIQOHGTNZKIHLWYLRYCUJXLJJEFHDHVHEKAJ
+************************************************
+
+Note: zwic decrypts to seem
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwinglian
+
+**********************Key***********************
+zwinglian
+************************************************
+
+*****************Decrypted Text*****************
+SEEBBHCXQIXYINHYBNCEBNTDAGRTTTQGILXEXAOGPPLZMRYDTQGRNXVGKHDXTOIQOHPLGPMNTPBQWCDLELFUVKCSAYBXVAVJF
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwickmuhle
+
+**********************Key***********************
+zwickmuhle
+************************************************
+
+*****************Decrypted Text*****************
+SEEMUGPLVPVQNWOZQXLWXIYMVYZIDBHPLWOFYJPULWLWEBTESVONEBUMQNSTQINDYERJGAKIHLWUIFBGONQRIUOAWDBXVLCIS
+************************************************
+
+Note: zwic decrypts to seem
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwiebel
+
+**********************Key***********************
+zwiebel
+************************************************
+
+*****************Decrypted Text*****************
+SEEJGQASJZDCWISQKRKWSGQFEFCFYVXIXUHOKICXOPACVILHSBARICDNJDBTERLQOHEVNRKIHIIYNRYCNBXNJJEDSDJVHEXZJ
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwielicht
+
+**********************Key***********************
+zwielicht
+************************************************
+
+*****************Decrypted Text*****************
+SEEJTJILCIXYWIJBRBCEBRKFGSJTTTYCLWLKXAOUZOWMARYDFJIAFGVGKVSKDXTQOHEGICEBTPBYNEJDKLFUTVEFKLBXVIMMM
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwilling
+
+**********************Key***********************
+zwilling
+************************************************
+
+*****************Decrypted Text*****************
+SEEDTJOMHLSKLLFTJINLSWXHWWOFDTQGACJGSIRNLWLIQESFXDIZCYYWJDBXYWISPSAGGPSZTPBVNESEONQNXXABIXMTQEJQY
+************************************************
+
+Note: zwil decrypts to seed
+
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwinge
+
+**********************Key***********************
+zwinge
+************************************************
+
+*****************Decrypted Text*****************
+SEEBBQZBXUBSCCJXYRCEBNTJWWODHBHPLGMNXAOGPCACVAFHXDIWGSVGKHDTQINKIMWAIZFRTPBQWIKRIWVZJJEYRDBXVAVVY
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwinkern
+
+**********************Key***********************
+zwinkern
+************************************************
+
+*****************Decrypted Text*****************
+SEEBUQWFHLSXBUTXJINIWRJBWWODRBFAACJEWNNGLWLGEIXSXDIWKSQLJDBVNRAKPSAETAXNTPBQDIXOONQLIYZYIXMYEIBHY
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwirn
+
+**********************Key***********************
+zwirn
+************************************************
+
+*****************Decrypted Text*****************
+SEEKYSRJFUVQNOFMMWAIXIYKPUWHKKHPLOFOKINGLWLOMRYDVHONEJYEMMVVQINMCTZIPZKIHZTHGEXOONQCVHPSGYBXVZJBT
+************************************************
+
+Note: zwir decrypts to seek
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Try Next:
+
+zwirbelbart
+zwirbeln
+zwirnen
+zwirnerei
+zwirnsfaden
+
+Results:
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwirbelbart
+
+**********************Key***********************
+zwirbelbart
+************************************************
+
+*****************Decrypted Text*****************
+SEEKGQAWSGLMELTCTUKRVBMTANFMDESZYABIVVCIBGOYFPDXIVGBNJLEMMVABUKFRZWAILLRFMJFSRYCPBXNASZLIXMQPIMZQ
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwirbeln
+
+**********************Key***********************
+zwirbeln
+************************************************
+
+*****************Decrypted Text*****************
+SEEKGQAFHLSJKUHXJINAIRKBWWOYNBVAACJPINPGLWLOPIBSXDIIMSTLJDBHERLKPSAPVABNTPBFYIBOONQCAYCYIXMQPIMHY
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwirnen
+
+**********************Key***********************
+zwirnen
+************************************************
+
+*****************Decrypted Text*****************
+*****           4 cycles           *****5th                           *****10th
+zwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnenzwirnen
+SEEKYQOSJZQXWGSQKEIWTGQFURCDYVXZGUFOKINGORACVZSHTBARZXDLJDBHKRIQOHUENZKIHZTYLRYCPWXLJJEQUDHVHEBHJ
+****                                ****
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwirnerei
+
+**********************Key***********************
+zwirnerei
+************************************************
+
+*****************Decrypted Text*****************
+SEEKYQWQXIXYAGQJTWCEBEXJUCOTTTFAUOQIXAOOWCOUVRYDVHNIIYVGKSTTMRNQOHUENLHWTPBFLIXGILFUHQIQPSBXVZJVK
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+
+
+
+
+
+A variation of "zwirnsfaden" is suspected of being 
+the K4 segment key because of the amount of plaintext 
+words that appear in the decryption.
+
+Enter Key: zwirnsfaden
+
+**********************Key***********************
+zwirnsfaden
+************************************************
+
+*****************Decrypted Text*****************
+zwirnsfadenzwirnsfadenzwirnsfadenzwirnsfadenzwirnsfadenzwirnsfadenzwirnsfadenzwirnsfadenzwirnsfaden
+****       ****               ***        ***                      ****
+SEEKYZFXPPYMELTXCKRXFNMTANRWIFPIGABIVEHQCDUGFPDXTRMCJSYEMMVVGKRCLDWAILSSLNGYLRYCPWPXBPIYIXMQMQWKL
+************************************************
+
+Words to investigate next:
+
+zwirn
+zwirnen
+zwirner
+zwirbeln
+zwirnung
+zwirnband
+zwirnerei
+zwirnerin
+zwirnfaden
+zwirnseide
+
+
+
+
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 5
+
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwischen
+
+**********************Key***********************
+zwischen
+************************************************
+
+*****************Decrypted Text*****************
+SEEUFLGFHLSEZMQXJINYHXSBWWOWMOYAACJXHJCGLWLKYFHSXDIDLPDLJDBCDXWKPSAXUTHNTPBARFHOONQTSZIYIXMIYFXHY
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwist          
+
+**********************Key***********************
+zwist
+************************************************
+
+*****************Decrypted Text*****************
+SEEULSRJADVQNKRMMWYTXIYUMUWHUIHPLKROKIHYLWLKARYDLPONEELEMMLEQINGXTZIXHKIHQNHGENQONQTEHPSBLBXVQOBT
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwitschern
+
+**********************Key***********************
+zwitschern
+************************************************
+
+*****************Decrypted Text*****************
+SEEWIVDQFUVQNYZBRRAIXIYWJESMKKHPLYZUCNNGLWLYOLEHVHONEGIRRVVVQINIVQBNPZKIHVLTVIXOONQSCTFDGYBXVVPXG
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 3
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: zwitter
+
+**********************Key***********************
+zwitter
+************************************************
+
+*****************Decrypted Text*****************
+SEEWLQWSJZLGWOSQKBTWVGQFMJCYYVXVYUTOKIJYONACVVUHVBARVGDCJDBEIRAQOHMKNLKIHVNYCRYCKFXCJJELDDSVHEOPJ
+************************************************
+
+
+      Kryptos Encryption/Decryption Tool
+************************************************
+1. Encrypt Text Using Vigenere Table and Key
+2. Encrypt Text Using Vigenere Table and Key List
+3. Decrypt Text Using Vigenere Table and Key
+4. Decrypt Text Using Vigenere Table and Key List
+5. Exit Program
+************************************************
+
+Select A Menu Option: 5
+
+
+dCode
+Vigenere Cipher
+https://www.dcode.fr/vigenere-cipher
+Vigenere Key Used: MENGENLEHREUHR
+(Alphabet (26) ABCDEFGHIJKLMNOPQRSTUVWXYZ)
+CXXLQBMKZQQRUBCHVZXOLBEARWJYFJTEOFDPPCMYCZGOREVMLWMSGRNMWWJCJSQJRYRZMVNBCESTSGSGPPVMWCXODHPQXTYGK
+
+
+
+Frequency Analysis Results
+--------------------------
+Source: dcode.fr/frequency-analysis
+
+
+K	8×	8.25%	
+U	6×	6.19%	
+S	6×	6.19%	
+T	6×	6.19%	
+O	5×	5.15%	
+B	5×	5.15%	
+W	5×	5.15%	
+R	4×	4.12%	
+G	4×	4.12%	
+L	4×	4.12%	
+I	4×	4.12%	
+F	4×	4.12%	
+Q	4×	4.12%	
+Z	4×	4.12%	
+A	4×	4.12%	
+P	3×	3.09%	
+N	3×	3.09%	
+J	3×	3.09%	
+D	3×	3.09%	
+X	2×	2.06%	
+H	2×	2.06%	
+V	2×	2.06%	
+E	2×	2.06%	
+C	2×	2.06%	
+Y	1×	1.03%	
+M	1×	1.03%	
+
+#N : 26	Σ = 97.000	Σ = 99.950	#N : 26
+
+
+Relative Frequency in the English language (Texts)
+--------------------------------------------------
+
+E 	12.7% 	
+T 	9.1% 	
+A 	8.2% 	
+O 	7.5% 	
+I 	7.0% 	
+N 	6.7% 	
+S	6.3% 	
+H 	6.1% 	
+R 	6.0% 	
+D 	4.3% 	
+L 	4.0% 	
+C 	2.8% 	
+U 	2.8% 	
+M 	2.4% 	
+W 	2.4% 	
+F 	2.2% 	
+G 	2.0% 	
+Y 	2.0% 	
+P 	1.9% 	
+B 	1.5% 	
+V 	0.98% 	
+K 	0.77% 	
+J 	0.15% 	
+X 	0.15% 	
+Q 	0.095% 	
+Z 	0.074% 	
+
+
+After reviewing the results of frequency analysis, I've come to the conclusion that a simple transposition is unlikely. Multiple encodings suspected.
+
+Clues:
+1. You'd better delve into that particular clock.
+2. There are several really interesting clocks in Berlin.
+3. The particular clock in question is presumably the Berlin Clock, although the Alexanderplatz World Clock and Clock of Flowing Time are other candidates.
+
+
+The Clock of Flowing Time
+-------------------------
+(German: Uhr der fließenden Zeit)[1] is a 13 metres (43 ft) high water clock extending over three floors in the Berlin Europa-Center. The clock was designed by the French artist Bernard Gitton and set up in 1982.
+
+The water clock displays the time by filling glass spheres with brightly colored liquid, in a cycle that repeats every 12 hours. The whole system is controlled by a pendulum swinging in the lower half of the clock.
+
+
+
+
+Related sculptures
+------------------
+After producing Kryptos, Sanborn's first cryptographic sculpture, he went on to make several other sculptures with codes,
+including an "Untitled Kryptos Piece" and Cyrillic Projector, which contain encrypted Russian Cyrillic text that includes an
+extract from a classified KGB document. The cipher on one side of Sanborn's 1997 sculpture Antipodes repeats part of the
+text from Kryptos with slight differences.
+
+
+Absolutely! Given the context of previous Vigenère keys like "PALIMPSEST" and "ABSCISSA," along with the cryptic nature of the clues related to the Berlin Clock, we can derive a list that reflects a more abstract connection to these concepts. Here’s a revised list of potential 5-character keys:
+
+Ciphertext | Plaintext
+KRONOS
+OBKRUO       FH
+XOGHUL       YE
+BSOLIF       IF
+BBWFLR       IH
+VQQPRN       WV
+GKSSOT       NZ
+WTQSJQ       XD
+SSEKZZ       GF
+WATJKL       X
+UDIAWI       V
+NFBNYP       T
+VTTMZF       W
+PKWGDK       D
+ZXTJCD       Z
+IGKUHU       P
+AUEKCA       H
+R            B
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+### Refined 5-Character Keys for Kryptos
+
+1. TIMEZ (related to time)
+2. BEATS (referring to the ticking of a clock)
+3. TICKS (the sound clocks make)
+4. HOURZ (play on hours)
+5. BELLZ (as in clock bells)
+6. CLOCK (central theme)
+7. GEARZ (clock gears)
+
+8. LUMEN (light; related to illumination of the clock)
+
+9. SHIFT (as in time shifts)
+10. VELTZ (from "velocity," relating to time)
+11. HANDS (clock hands)
+12. NUMER (from numerals on clocks)
+13. ECLIP (from eclipses relating to time)
+14. ZONAL (related to time zones)
+15. ANGLE (as in clock angles)
+
+16. CYCLE (cyclical nature of time)
+
+17. HUESY (related to colors of the Berlin Clock)
+18. RHYTH (rhythm of time)
+19. METER (measuring time)
+
+20. FACES (clock faces)
+
+21. TIKTA (play on ticking)
+22. TIDAL (as in tides, which are time-related)
+23. ZEBRA (visual pattern of the Berlin Clock)
+24. LATHE (tools related to clock-making)
+25. STRIK (as in striking of the hour)
+26. TRAIL (following the passage of time)
+27. SECON (from seconds)
+28. TWIST (as in twisting time)
+29. GLOBE (related to global time)
+30. ZENIT (as in zenith, time-related)
+31. WATCH (another term for clock)
+
+32. NEXUS (connections in time)
+
+33. TICKT (variation of ticks)
+34. CLASP (to hold or connect)
+35. SHIFT (as in shift in time)
+36. FRAME (as in time frame)
+37. SPANS (time spans)
+38. WHEEL (as in wheel of time)
+39. MINDS (thinking about time)
+40. CRYPT (related to hidden meanings)
+41. FLOWY (from flowing time)
+42. LINKS (connections of time)
+43. SIGNS (indicators of time)
+
+
+    44. CHRONOS (from chronology)
+AXIOM
+
+45. HORIZ (from horizon)
+46. TRIMY (as in trimming time)
+47. WAVES (waves of time)
+48. LATCH (to lock time)
+49. BEACN (as in beacon of time)
+50. FLOWS (like flowing time)
+51. SLANT (perspective on time)
+52. GLINT (gleam of insight)
+53. REWND (rewind time)
+54. PHASE (phases of time)
+55. REACH (to stretch over time)
+56. FLARE (as in a burst of time)
+57. QUIET (as in still time)
+58. FAULT (time faults)
+59. AGEND (time management)
+60. TANGO (dance of time)
+61. SHADE (shading time)
+62. GUSTY (swift passage of time)
+
+63. EPOCH (significant time period)
+
+64. TRACE (to track time)
+65. BRINK (edge of time)
+66. DRIFT (as in drifting time)
+67. PRISM (spectrum of time)
+68. DEPTH (depth of time)
+69. SLEET (as in seasons)
+70. KRAFT (as in craft of making time)
+71. GRAIN (like rings of a tree)
+72. FABLE (time as a narrative)
+73. VEINS (like veins of time)
+74. EMBER (time's glow)
+75. CANAL (flow of time)
+76. INDEX (index of time)
+77. CRUXY (the crux of time)
+78. TREAD (walking through time)
+79. FLOCK (gathering time)
+80. STITCH (sewing together moments)
+81. TRICK (the tricks of time)
+82. MARCH (progression of time)
+83. ZONAL (time zones)
+84. CLONE (time duplicating)
+85. HINGE (pivot of time)
+86. TRACE (tracing time)
+87. SLIDE (sliding through time)
+88. TWIST (the twists of time)
+89. FLARE (signal of time)
+90. FLOAT (time floating)
+91. FLARE (light of time)
+92. HINGE (turning point of time)
+93. SKIFF (small boat; moving with the current of time)
+94. ELAPS (from elapse)
+95. DIALS (clock dials)
+96. DRIFT (drifting through time)
+97. STARS (constellations over time)
+98. FLARE (illumination of time)
+99. PLUMB (measuring time)
+100. SKIES (time in the heavens)
+101. WONKY
+
+This list blends the cryptic nature of the puzzle, the hints related to the Berlin Clock, and the themes of time and measurement. Let me know if you’d like to explore any specific keys or further strategies!
+range 4 - 7 (Inclusive)
+Key is likely 5, 4, 6, or 7 characters in order of likelyness
+Ciphertext:
+
+Non-matching key candidates, therefore key length is not 4
+
+MRIY // KEY: TNOR
+WOYN // KEY: THEA
+
+OBKR
+UOXO
+GHUL
+BSOL
+IFBB
+WFLR // Decrypted: *EAS
+VQQP // Decrypted: TNOR
+RNGK // Decrypted: THEA
+SSOT // Decrypted: ST**
+WTQS
+JQSS
+EKZZ
+WATJ
+KLUD
+IAWI
+NFBN // Decrypted: ***B
+YPVT // Decrypted: ERLI
+TMZF // Decrypted: NCLO
+PKWG // Decrypted: CK**
+DKZX
+TJCD
+IGKU
+HUAU
+EKCA
+R
+
+
+
+
+
+
+**********************Key***********************
+RIYWO
+************************************************
+
+*****************Decrypted Text*****************
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+TNXTJTCPJCQYSCKJKDEPVWITLNORTHFETCKPBYWRIOTCSZDWKYPRXQJCKOKDMWSVWYAYAGXWRPMFUXYNPRAGDFENLJSSCPTSF
+                         *****
+Non-matching key candidates, therefore key length is not 5
+
+*RDUM // KEY: *EAST
+RIYWO // KEY: NORTH
+OBKRU
+OXOGH
+ULBSO
+LIFBB
+WFLRV // Decrypted: *EAST
+QQPRN // Decrypted: NORTH
+GKSSO // Decrypted: EAST*
+TWTQS
+JQSSE
+KZZWA
+TJKLU
+DIAWI
+NFBNY // Decrypted: ***BE
+PVTTM // Decrypted: RLINC
+ZFPKW // Decrypted: LOCK*
+GDKZX
+TJCDI
+GKUHU
+AUEKC
+AR
+
+
+Non-matching key candidates, therefore key length is not 6
+
+MRIYWO // KEY: TNORTH
+YNKY** // KEY: EAST**
+
+OBKRUO
+XOGHUL
+BSOLIF
+BBWFLR // Decrypted: ***EAS
+VQQPRN // Decrypted: TNORTH
+GKSSOT // Decrypted: EAST**
+WTQSJQ
+SSEKZZ
+WATJKL
+UDIAWI
+NFBNYP // Decrypted: ***BER
+VTTMZF // Decrypted: LINCLO
+PKWGDK // Decrypted: CK****
+ZXTJCD
+IGKUHU
+AUEKCA
+R
+
+
+Non-matching key candidates, therefore key length is not 7
+
+RDUMRIY // KEY: EASTNOR
+WOYNKY* // KEY: THEAST*
+
+OBKRUOX
+OGHULBS
+OLIFBBW
+FLRVQQP // Decrypted: EASTNOR
+RNGKSSO // Decrypted: THEAST*
+TWTQSJQ
+SSEKZZW
+ATJKLUD
+IAWINFB
+NYPVTTM // Decrypted: BERLINC
+ZFPKWGD // Decrypted: LOCK***
+KZXTJCD
+IGKUHUA
+UEKCAR
+
+
+**********************Key***********************
+LYOIECBA
+************************************************
+
+*****************Decrypted Text*****************
+HSUFDVJXVFJYWWWDXDPNFPCQOMIHJDONITKIFUFZZMRLKLLMSOZRIBGPXOMKBPKFERLINCLOFXMXZLLLGHTUTTMHWNYSKLRKD
+************************************************
+
+**********************Key***********************
+MRIYWOYN
+************************************************
+
+*****************Decrypted Text*****************
+GAEZXKVFUGSIERPXWENSKAIBTNORTHEAHOJYKZMGXNLTHUWSOSIHPFNLWSBGVASKDYAYAGWNEZBEGUWOFIQBMBXYVQMNHUAHC
+************************************************
+
+
+
+Non-matching key candidates, therefore key length is not 8
+
+MRIYWOYN // KEY: TNORTHEA
+LYOIECBA // KEY: ERLINCLO
+
+OBKRUOXO
+GHULBSOL
+IFBBWFLR // Decrypted: *****EAS
+VQQPRNGK // Decrypted: TNORTHEA
+SSOTWTQS // Decrypted: ST******
+JQSSEKZZ
+WATJKLUD
+IAWINFBN // Decrypted: *******B
+YPVTTMZF // Decrypted: ERLINCLO
+PKWGDKZX // Decrypted: CK******
+TJCDIGKU
+HUAUEKCA
+R
+
+
+Non-matching key candidates, therefore key length is not 9
+
+***RDUMRI // ***EASTNO KEY
+YWOYNKY** // RTHEAST** KEY
+
+CIPHERTEXT = PLAINTEXT = DECRYPTION (First Layer)
+FLRVQQPRNGKSS = EASTNORTHEAST = RDUMRIYWOYNKY
+NYPVTTMZFPK = BERLINCLOCK = ELYOIECBAQK
+
+OBKRUOXOG
+HULBSOLIF
+BBWFLRVQQ // Decrypted: ***EASTNO
+PRNGKSSOT // Decrypted: RTHEAST** 
+WTQSJQSSE
+KZZWATJKL
+UDIAWINFB
+NYPVTTMZF // Decrypted: BERLINCLO
+PKWGDKZXT // Decrypted: CK*******
+JCDIGKUHU
+AUEKCAR
+
+
+OBKRUOXOGH
+ULBSOLIFBB
+WFLRVQQPRN
+GKSSOTWTQS
+JQSSEKZZWA
+TJKLUDIAWI
+NFBNYPVTTM
+ZFPKWGDKZX
+TJCDIGKUHU
+AUEKCAR
+
+
+OBKRUOXOGHU
+LBSOLIFBBWF
+LRVQQPRNGKS
+SOTWTQSJQSS
+EKZZWATJKLU
+DIAWINFBNYP
+VTTMZFPKWGD
+KZXTJCDIGKU
+HUAUEKCAR
+
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+                     EASTNORTHEAST                             BERLINCLOCK
+
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+
+
+
+To solve: Find character on right in the first column of the
+Kryptos Vigenere Table. Then travel horizontally to find the
+matching ciphertext character. Travel to the table header 
+(first row). This is the plaintext character. Ta da.
+Also, note to self scan that table I made lines on.
+It helps tremendously. 
+
+
+
+CRONUS
+CRONOS
+KRONOS
+
+Sure! Here’s a list of 100 five-letter words related to the Berlin Clock, set theory, and the Kryptos puzzle:
+
+    Clock
+    Ticks
+    Hints
+    Timey
+    Coded
+    Crypt
+    Shift
+    Logic
+    Scale
+    Clear
+    Setty
+    Array
+    Group
+    Angle
+    Frame
+    Axisy
+    Datax
+    Total
+    Pairs
+    Fuzzy
+    Oddly
+    Eveny
+    Count
+    Sigma
+    Proof
+    Unite
+    Noney
+    Merges
+    Joiny
+    Graph
+    Basis
+    Realm
+    Multi
+    Brick
+    Codey
+    Cluey
+    Cipher
+    Tasky
+    Giver
+    Logic
+    Solve
+    Angle
+    Event
+    Nulls
+    Union
+    Inter
+    Field
+    Switch
+    Cycle
+    Paren
+    Mappt
+    Paird
+    Scope
+    Frame
+    Burst
+    Risen
+    Liney
+    Boldy
+    Twist
+    Truth
+    Flash
+    Alarm
+    Tally
+    Query
+    Claim
+    Shard
+    Linky
+    Prime
+    Table
+    Brick
+    Scale
+    Fused
+    Cipher
+    Scribe
+    Watch
+    Fable
+    Dashy
+    Tally
+    Chain
+    Graph
+    Prism
+    Fetch
+    Glist
+    Logic
+    Align
+    Order
+    Splay
+    Clear
+    Tally
+    Brisk
+    Gauge
+    Relat
+    Spool
+    Clone
+    Glint
+    Stalk
+    Plain
+    Cipher
+    Blink
+    Tally
+    
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Text To Decrypt: OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+Enter Key: mengenlehreuhr
+
+**********************Key***********************
+mengenlehreuhr
+************************************************
+
+*****************Decrypted Text*****************
+GWAHDFAQZGDVQOGSVZWISRPKEZSYCBQGUGHNCPCEYNHUMGHSSVJIIVACWVTYBNLBHYECJLARDGFQNIEWNUUCWYABPYJDWZXFG
+************************************************
+
+search for it, and, the in the first few characters before key length wrap around
+
+
+
+You said:
+Do you see any obvious patterns in the following ciphertext, plaintext, and first layer decryption? CIPHERTEXT = PLAINTEXT = DECRYPTION (First Layer)
+FLRVQQPRNGKSS = EASTNORTHEAST = RDUMRIYWOYNKY
+NYPVTTMZFPK = BERLINCLOCK = ELYOIECBAQK
+ChatGPT said:
+ChatGPT
+
+Let's break down the information provided:
+
+    CIPHERTEXT: This appears to be the encrypted version of the text.
+    PLAINTEXT: This is the original, unencrypted text.
+    DECRYPTION (First Layer): This is the output after applying the first layer of decryption on the ciphertext.
+
+Now, let’s analyze the data:
+CIPHERTEXT, PLAINTEXT, DECRYPTION
+
+    FLRVQQPRNGKSS → EASTNORTHEAST → RDUMRIYWOYNKY
+    NYPVTTMZFPK → BERLINCLOCK → ELYOIECBAQK
+
+Observations
+
+    Length Consistency: Each ciphertext, plaintext, and decryption string has the same length. This suggests a substitution or transposition cipher where the length of the text remains constant.
+
+    Letter Frequency:
+        In the plaintext, letters like 'E', 'A', 'N', and 'T' are common, which is typical in English.
+        In the ciphertext, certain letters repeat, such as 'R' and 'Q' in the first string, which might indicate a pattern or method of encryption.
+
+    Transformation:
+        Comparing the first ciphertext and plaintext, we can observe how each letter in the plaintext has transformed into its corresponding letter in the ciphertext, and then again into the decryption.
+        This suggests that there may be a systematic method to how letters are shifted or substituted in the encryption process.
+
+Patterns and Hypotheses
+
+    Substitution Cipher: The relationship between the ciphertext and plaintext suggests a substitution cipher, where each letter in the plaintext is consistently replaced with another letter.
+
+    Decryption Layer: The first layer of decryption produces a different output, indicating that there may be multiple layers of encryption. The second layer might involve further substitution or transposition.
+
+    Frequency Analysis: Analyzing the frequency of letters in both ciphertext and plaintext might yield insights into how letters are mapped from one to another.
+
+Conclusion
+
+The ciphertext and plaintext exhibit a systematic transformation, likely indicative of a substitution cipher. Further analysis, particularly through frequency analysis and examining the relationships between letters in the layers, would help clarify the specific encryption method used and how many layers are involved.
+You said:
+Can you analyze the frequency of the letters and make predictions based on letter frequency in english texts?
+ChatGPT said:
+ChatGPT
+
+Certainly! Let’s analyze the frequency of the letters in the provided ciphertext and plaintext, and then compare these frequencies with typical English letter frequencies.
+Provided Data
+
+    CIPHERTEXT:
+        FLRVQQPRNGKSS
+        NYPVTTMZFPK
+
+    PLAINTEXT:
+        EASTNORTHEAST
+        BERLINCLOCK
+
+Frequency Analysis
+CIPHERTEXT Analysis
+
+FLRVQQPRNGKSS:
+
+    F: 1
+    L: 1
+    R: 2
+    V: 1
+    Q: 2
+    P: 1
+    N: 1
+    G: 1
+    K: 1
+    S: 2
+
+NYPVTTMZFPK:
+
+    N: 1
+    Y: 1
+    P: 2
+    V: 1
+    T: 2
+    M: 1
+    Z: 1
+    F: 1
+    K: 1
+
+Total Frequency (CIPHERTEXT):
+
+    F: 2
+    L: 1
+    R: 2
+    V: 2
+    Q: 2
+    P: 3
+    N: 2
+    G: 1
+    K: 2
+    S: 2
+    Y: 1
+    T: 2
+    M: 1
+    Z: 1
+
+Total Count: 15 letters
+PLAINTEXT Analysis
+
+EASTNORTHEAST:
+
+    E: 2
+    A: 2
+    S: 2
+    T: 2
+    N: 1
+    O: 1
+    R: 1
+    H: 1
+
+BERLINCLOCK:
+
+    B: 1
+    E: 1
+    R: 1
+    L: 2
+    I: 1
+    N: 1
+    C: 1
+    O: 1
+    K: 1
+
+Total Frequency (PLAINTEXT):
+
+    A: 2
+    B: 1
+    C: 1
+    E: 3
+    H: 1
+    I: 1
+    L: 2
+    N: 2
+    O: 2
+    R: 2
+    S: 2
+    T: 2
+
+Total Count: 20 letters
+Predictions Based on English Letter Frequency
+
+In English texts, the most common letters (in descending order of frequency) are typically: E, T, A, O, I, N, S, H, R, D, L, C, U, M, W, F, Y, G, P, B, V, K, J, X, Q, Z.
+Observations and Predictions
+
+    Common Letters:
+        In the plaintext, 'E', 'A', and 'T' are quite common, which aligns with English letter frequency.
+        In the ciphertext, 'P', 'R', and 'Q' appear more frequently, which might indicate that these letters correspond to high-frequency letters in the plaintext.
+
+    Substitution Mapping:
+        Based on the frequency counts, we can hypothesize that letters with high frequency in the ciphertext (like 'P' and 'Q') may map to letters like 'E' or 'T' in the plaintext.
+        Conversely, less common letters in the plaintext may correspond to less frequent letters in the ciphertext.
+
+Potential Mappings
+
+    High Frequency in CIPHERTEXT:
+        P (3) → E (3) or T (2)
+        R (2) → A (2) or N (2)
+        Q (2) → O (1) or S (2)
+
+    Low Frequency in CIPHERTEXT:
+        G (1), Z (1), M (1) could map to less common letters in plaintext.
+
+Conclusion
+
+To further refine these predictions, we would need to apply a systematic approach to try different mappings and see if they create valid words in English. A frequency analysis like this can provide a solid starting point for decrypting the ciphertext. If you want to explore specific letter substitutions or further analysis, just let me know!
+You said:
+Can you create a systematic approach to try different mappings?
+ChatGPT said:
+ChatGPT
+
+Certainly! A systematic approach to deciphering the ciphertext can involve several steps, focusing on frequency analysis and substitution. Here’s a structured method you can follow:
+Step 1: Analyze Letter Frequencies
+
+    Count Frequencies: Create a frequency table for both the ciphertext and plaintext, as we did earlier.
+    Rank Frequencies: Rank the letters in both the ciphertext and plaintext by frequency.
+
+Step 2: Initial Substitution Mapping
+
+    Map High-Frequency Letters: Start by substituting the highest frequency letters from the ciphertext with the highest frequency letters from the plaintext:
+        Example:
+            Most frequent letter in ciphertext → Most frequent letter in plaintext (e.g., P → E).
+            Second most frequent letter → Second most frequent letter, and so on.
+
+    Make Notes: Keep track of your substitutions and any letters that remain unmapped.
+
+Step 3: Test Substitutions
+
+    Substitute Letters: Replace the letters in the ciphertext using your initial mapping.
+    Look for Valid Words: Analyze the resulting text for recognizable words. If you find some valid words, it indicates your substitutions might be on the right track.
+
+Step 4: Refine the Mapping
+
+    Iterate on the Mapping: If the initial substitutions do not yield coherent words, adjust your mappings:
+        Swap letters that don’t seem to fit.
+        Pay attention to common English digraphs (e.g., "TH", "ER", "ON") and trigraphs (e.g., "THE", "AND").
+
+    Use Context Clues: Look for patterns in the plaintext words you have identified. For instance, if you identify a word that ends in "ING," you can adjust mappings accordingly.
+
+Step 5: Create a Frequency Table for Mapped Text
+
+    New Frequency Analysis: After each iteration of substitutions, recalculate the frequencies of the newly formed text.
+    Compare Against English Frequencies: Check how the new frequencies compare against typical English letter frequencies.
+
+Step 6: Automate the Process (Optional)
+
+If you’re comfortable with programming or using scripts, you could automate this process:
+
+    Create a Script: Write a script that takes your ciphertext and performs the mapping based on your frequency tables.
+    Brute Force Combinations: The script can try different combinations of mappings and check for dictionary words, which can speed up the process significantly.
+
+Step 7: Final Verification
+
+    Cross-Reference: Once you have a likely plaintext, cross-reference with the original plaintext (if available) to verify accuracy.
+    Check Consistency: Ensure that each letter is consistently mapped throughout the ciphertext.
+
+Example of Initial Mapping
+
+Here’s a basic example of how you might start mapping:
+
+    CIPHERTEXT: P, R, Q → E, T, A (initial high-frequency mapping)
+    Continue Substituting: Test the resulting text for coherence and adjust based on findings.
+
+Conclusion
+
+This systematic approach allows you to explore various mappings and refine your decryption step by step. It’s a combination of logical deduction, linguistic knowledge, and iterative testing. If you want to try specific mappings or need assistance with particular steps, feel free to ask!
+You said:
+Can you create a script in Python that accomplishes these steps?
+ChatGPT said:
+ChatGPT
+
+Certainly! Below is a simple Python script that performs frequency analysis on the ciphertext, creates an initial substitution mapping based on the frequencies, and attempts to decrypt the text. It’s a basic starting point and can be further enhanced.
+Python Script
+
+python
+
+import collections
+import string
+
+def frequency_analysis(text):
+    text = text.replace(" ", "").upper()  # Clean and standardize text
+    frequency = collections.Counter(text)
+    return frequency.most_common()
+
+def create_initial_mapping(cipher_freq, plain_freq):
+    mapping = {}
+    for (c_letter, _), (p_letter, _) in zip(cipher_freq, plain_freq):
+        mapping[c_letter] = p_letter
+    return mapping
+
+def substitute(ciphertext, mapping):
+    decrypted = []
+    for letter in ciphertext:
+        if letter in mapping:
+            decrypted.append(mapping[letter])
+        else:
+            decrypted.append(letter)  # Keep unmapped letters as is
+    return ''.join(decrypted)
+
+def print_frequencies(frequencies, title):
+    print(f"\n{title} Frequencies:")
+    for letter, freq in frequencies:
+        print(f"{letter}: {freq}")
+
+def main(ciphertext, plaintext):
+    # Frequency analysis
+    cipher_freq = frequency_analysis(ciphertext)
+    plain_freq = frequency_analysis(plaintext)
+
+    # Print frequencies
+    print_frequencies(cipher_freq, "Ciphertext")
+    print_frequencies(plain_freq, "Plaintext")
+
+    # Create initial mapping
+    initial_mapping = create_initial_mapping(cipher_freq, plain_freq)
+    print("\nInitial Mapping:")
+    for k, v in initial_mapping.items():
+        print(f"{k} -> {v}")
+
+    # Decrypt the ciphertext
+    decrypted_text = substitute(ciphertext, initial_mapping)
+    print("\nDecrypted Text:")
+    print(decrypted_text)
+
+# Example usage
+CIPHERTEXT = "FLRVQQPRNGKSS NYPVTTMZFPK"
+PLAINTEXT = "EASTNORTHEAST BERLINCLOCK"
+
+main(CIPHERTEXT, PLAINTEXT)
+
+How the Script Works
+
+    Frequency Analysis: The frequency_analysis function computes the frequency of each letter in the given text.
+    Initial Mapping: The create_initial_mapping function maps high-frequency letters in the ciphertext to high-frequency letters in the plaintext.
+    Substitution: The substitute function replaces letters in the ciphertext based on the initial mapping.
+    Print Frequencies and Mapping: The script prints the frequencies of letters and the created mapping for clarity.
+    Decryption: Finally, it outputs the decrypted text based on the mapping.
+
+Running the Script
+
+To run this script:
+
+    Make sure you have Python installed.
+    Copy the script into a .py file (e.g., decrypt.py).
+    Run it from the command line: python decrypt.py.
+
+Further Enhancements
+
+    You can implement an interactive loop to refine the mapping based on user input.
+    Add functionality to check for valid English words in the decrypted output.
+    Expand the script to handle cases where letters might need to be swapped after initial attempts.
+
+Feel free to modify the script as needed, and let me know if you have any questions or need further assistance!
+
+
+ChatGPT can make mistakes. Check important info.
+
+
+
+
+
+EMUFPHZLRFAXYUSDJKZLDKRNSHGNFIVJ
+YQTQUXQBQVYUVLLTREVJYQTMKYRDMFD
+VFPJUDEEHZWETZYVGWHKKQETGFQJNCE
+GGWHKK?DQMCPFQZDQMMIAGPFXHQRLG
+TIMVMZJANQLVKQEDAGDVFRPJUNGEUNA
+QZGZLECGYUXUEENJTBJLBQCRTBJDFHRR
+YIZETKZEMVDUFKSJHKFWHKUWQLSZFTI
+HHDDDUVH?DWKBFUFPWNTDFIYCUQZERE
+EVLDKFEZMOQQJLTTUGSYQPFEUNLAVIDX
+FLGGTEZ?FKZBSFDQVGOGIPUFXHHDRKF
+FHQNTGPUAECNUVPDJMQCLQUMUNEDFQ
+ELZZVRRGKFFVOEEXBDMVPNFQXEZLGRE
+DNQFMPNZGLFLPMRJQYALMGNUVPDXVKP
+DQUMEBEDMHDAFMJGZNUPLGEWJLLAETG
+
+	
+
+
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+AKRYPTOSABCDEFGHIJLMNQUVWXZKRYP
+BRYPTOSABCDEFGHIJLMNQUVWXZKRYPT
+CYPTOSABCDEFGHIJLMNQUVWXZKRYPTO
+DPTOSABCDEFGHIJLMNQUVWXZKRYPTOS
+ETOSABCDEFGHIJLMNQUVWXZKRYPTOSA
+FOSABCDEFGHIJLMNQUVWXZKRYPTOSAB
+GSABCDEFGHIJLMNQUVWXZKRYPTOSABC
+HABCDEFGHIJLMNQUVWXZKRYPTOSABCD
+IBCDEFGHIJLMNQUVWXZKRYPTOSABCDE
+JCDEFGHIJLMNQUVWXZKRYPTOSABCDEF
+KDEFGHIJLMNQUVWXZKRYPTOSABCDEFG
+LEFGHIJLMNQUVWXZKRYPTOSABCDEFGH
+MFGHIJLMNQUVWXZKRYPTOSABCDEFGHI
+
+
+ENDYAHROHNLSRHEOCPTEOIBIDYSHNAIA
+CHTNREYULDSLLSLLNOHSNOSMRWXMNE
+TPRNGATIHNRARPESLNNELEBLPIIACAE
+WMTWNDITEENRAHCTENEUDRETNHAEOE
+TFOLSEDTIWENHAEIOYTEYQHEENCTAYCR
+EIFTBRSPAMHHEWENATAMATEGYEERLB
+TEEFOASFIOTUETUAEOTOARMAEERTNRTI
+BSEDDNIAAHTTMSTEWPIEROAGRIEWFEB
+AECTDDHILCEIHSITEGOEAOSDDRYDLORIT
+RKLMLEHAGTDHARDPNEOHMGFMFEUHE
+ECDMRIPFEIMEHNLSSTTRTVDOHW?OBKR
+UOXOGHULBSOLIFBBWFLRVQQPRNGKSSO
+TWTQSJQSSEKZZWATJKLUDIAWINFBNYP
+VTTMZFPKWGDKZXTJCDIGKUHUAUEKCAR
+
+	
+
+
+NGHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+OHIJLMNQUVWXZKRYPTOSABCDEFGHIJL
+PIJLMNQUVWXZKRYPTOSABCDEFGHIJLM
+QJLMNQUVWXZKRYPTOSABCDEFGHIJLMN
+RLMNQUVWXZKRYPTOSABCDEFGHIJLMNQ
+SMNQUVWXZKRYPTOSABCDEFGHIJLMNQU
+TNQUVWXZKRYPTOSABCDEFGHIJLMNQUV
+UQUVWXZKRYPTOSABCDEFGHIJLMNQUVW
+VUVWXZKRYPTOSABCDEFGHIJLMNQUVWX
+WVWXZKRYPTOSABCDEFGHIJLMNQUVWXZ
+XWXZKRYPTOSABCDEFGHIJLMNQUVWXZK
+YXZKRYPTOSABCDEFGHIJLMNQUVWXZKR
+ZZKRYPTOSABCDEFGHIJLMNQUVWXZKRY
+ ABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+

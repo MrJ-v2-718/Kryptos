@@ -1,0 +1,182 @@
+Hello there. I'm working on a Python loop that compares 2 dimensional lists (arrays.)
+
+The outer list contains rows of lists within it, see structure below:
+
+VIGENERE_TABLE = [
+        ["K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P"],
+        ["R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T"],
+        ["Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O"],
+        ["P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S"],
+        ["T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A"],
+        ["O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B"],
+        ["S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C"],
+        ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D"],
+        ["B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E"],
+        ["C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F"],
+        ["D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G"],
+        ["E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H"],
+        ["F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I"],
+        ["G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+        ["H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L"],
+        ["I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M"],
+        ["J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N"],
+        ["L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q"],
+        ["M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U"],
+        ["N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V"],
+        ["Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W"],
+        ["U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X"],
+        ["V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z"],
+        ["W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K"],
+        ["X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R"],
+        ["Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y"]
+    ]
+    
+It will be using this table to create a new one from the comparison of another.
+Like this one:
+
+ciphertext_table = [
+    ['P', 'A', 'L', 'I', 'M', 'P', 'S', 'E', 'S', 'T'],
+    ['E', 'M', 'U', 'F', 'P', 'H', 'Z', 'L', 'R', 'F'],
+    ['A', 'X', 'Y', 'U', 'S', 'D', 'J', 'K', 'Z', 'L'],
+    ['D', 'K', 'R', 'N', 'S', 'H', 'G', 'N', 'F', 'I'],
+    ['V', 'J', 'Y', 'Q', 'T', 'Q', 'U', 'X', 'Q', 'B'],
+    ['Q', 'V', 'Y', 'U', 'V', 'L', 'L', 'T', 'R', 'E'],
+    ['V', 'J', 'Y', 'Q', 'T', 'M', 'K', 'Y', 'R', 'D'],
+    ['M', 'F', 'D']
+]
+
+It will then need to look at the first value in the first column in the
+ciphertext table, which in this case is the letter "P". Then it will find this
+corresponding letter in the first column of the VIGENERE_TABLE. Next it will find
+the second value in the first column, which in this case is "E". Then, traveling
+horizontally from the row where the "P" was found it will find "E". Then the 
+plaintext character will be in the corresponding index in the first row of 
+the VIGENERE_TABLE.
+
+Here is the current program for reference:
+# MrJ
+# 10/11/2024
+# Kryptos Encryption/Decryption Tool
+
+
+def kryptos():
+    # Kryptos Vigenere Table
+    VIGENERE_TABLE = [
+        ["K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P"],
+        ["R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T"],
+        ["Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O"],
+        ["P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S"],
+        ["T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A"],
+        ["O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B"],
+        ["S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C"],
+        ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D"],
+        ["B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E"],
+        ["C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F"],
+        ["D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G"],
+        ["E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H"],
+        ["F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I"],
+        ["G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J"],
+        ["H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L"],
+        ["I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M"],
+        ["J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N"],
+        ["L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q"],
+        ["M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U"],
+        ["N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V"],
+        ["Q", "U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W"],
+        ["U", "V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X"],
+        ["V", "W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z"],
+        ["W", "X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K"],
+        ["X", "Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R"],
+        ["Z", "K", "R", "Y", "P", "T", "O", "S", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "Q", "U", "V", "W", "X", "Z", "K", "R", "Y"]
+    ]
+
+    menu_selection = 0
+    plain_text = ""
+    cipher_text = ""
+    key = ""
+
+    while menu_selection != 3:
+        display_menu()
+
+        try:
+            menu_selection = int(input("Select A Menu Option: ".strip()))
+        except ValueError:
+            print("That is not a valid menu selection.")
+            continue
+            
+        if menu_selection == 1:
+            # Encrypt Text Using Vigenere Table and Key
+            plain_text = input("Enter Text To Encrypt: ").strip()
+            key = input("Enter Key: ").strip()
+            cipher_text = encrypt(key, plain_text, VIGENERE_TABLE)
+            print(f"Encrypted Text: {cipher_text}")
+            
+        elif menu_selection == 2:
+            # Decrypt Text Using Vigenere Table and Key
+            cipher_text = input("Enter Text To Decrypt: ").strip()
+            key = input("Enter Key: ").strip()
+            plain_text = decrypt(key, cipher_text, VIGENERE_TABLE)
+            print(f"Decrypted Text: {plain_text}")
+
+
+def encrypt(key, plaintext, vigenere_table):
+    print("Feature Currently Not Implemented")
+
+
+def decrypt(key, ciphertext, vigenere_table):
+    ciphertext = ciphertext.upper().replace(" ", "")
+    key = key.upper().replace(" ", "")
+    
+    ciphertext_table = []
+    decrypted_message = []
+    
+    # Placeholder variables for the row and column
+    i = 0
+    j = 0
+    
+    # Use key as first row
+    key_row = []
+    while i < len(key):
+        key_row.append(key[i])
+        i += 1 # Increment column
+    ciphertext_table.append(key_row)
+    print("************Header Row************")
+    print(ciphertext_table)
+    print("**********************************")
+    
+    print("************Ciphertext************")
+    print(ciphertext)
+    print("**********************************")
+    
+    character = 0 # Initialize character count
+    while character < len(ciphertext):
+        row = [] # Initialize row
+        i = 0 # Reinitilize i every loop
+        while i < len(key) and character < len(ciphertext):
+            print(character)
+            row.append(ciphertext[character])
+            character += 1 # Increment character count
+            i += 1 # Increment column
+        ciphertext_table.append(row)
+        j += 1 # Increment row
+    print("************Ciphertext************")
+    print(ciphertext_table)
+    print("**********************************")
+    
+    #for row, column in ciphertext_table:
+    #    if 
+    
+    # FIXME return decrypted_message
+
+
+def display_menu():
+    print()
+    print(f"      Kryptos Encryption/Decryption Tool")
+    print("************************************************")
+    print("1. Encrypt Text Using Vigenere Table and Key")
+    print("2. Decrypt Text Using Vigenere Table and Key")
+    print("3. Exit Program")
+
+
+kryptos()
+
